@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Starting a central module to carry out global config
+ */
+
+/**
+ * Implement hook_help().
+ */
+function central_help($path, $arg) {
+  if ($path == 'admin/help#central') {
+    return t('This is the helptext for the custom central module.');
+  }
+}
+
+

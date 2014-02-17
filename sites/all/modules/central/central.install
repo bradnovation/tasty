@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * @file
+ * Install & enable common modules
+ */
+
+
+/**
+ * Implementation of hook_install()
+ */
