@@ -13,9 +13,9 @@
 
 function central_update_7000() {
 
-/**
-  * Build desired module list to enable
-  */
+  /**
+   * Build desired module list to enable
+   */
   $module_list = array(
     'views',
     'features',
@@ -36,7 +36,7 @@ function central_update_7000() {
   * and enable them with their dependancies.
   */
   
-  module_enable($module_list, $enable_dependancies = TRUE)
+  module_enable($module_list, $enable_dependancies = TRUE);
 
   }
 
