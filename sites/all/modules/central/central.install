@@ -11,6 +11,28 @@
  */
 
 function central_update_7000() {
-  
+ 
+  /**
+    * Implementation of hook_enable()
+    * Get the module list and start enabling
+    */
+
+    function module_enable($module_list, $enable_dependancies = TRUE) {
+      if ($enable_dependancies) {
+        $module_list[] = array(
+          'views',
+          'features',
+          'strongarm',
+          'context',
+          'pathauto',
+          'diff',
+          'libraries',
+          'jquery_update',
+          'devel',
+          'module_filter',
+          'admin_menu'
+        );
+      }
+    }
 
 }

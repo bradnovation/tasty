@@ -2,6 +2,3 @@ name = Central
 description = Module to carry global site configuration settings
 core = 7.x
 
-
-files[] = central.module
-
