@@ -7,5 +7,10 @@
 
 
 /**
- * Implementation of hook_install()
+ * Implementation of hook_update_N()
  */
+
+function central_update_7000() {
+  
+
+}
