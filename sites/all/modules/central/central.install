@@ -6,6 +6,7 @@
  */
 
 
+
 /**
  * Implementation of hook_update_N()
  */
@@ -27,15 +28,15 @@ function central_update_7000() {
     'devel',
     'module_filter',
     'admin_menu'
-    );
+  );
  
-  /**
-    * Implementation of hook_enable()
-    * Get the list of modules from $module_list
-    * and start enable them with their dependancies.
-    */
+/**
+  * Implementation of hook_enable()
+  * Get the list of modules from $module_list
+  * and enable them with their dependancies.
+  */
+  
+  module_enable($module_list, $enable_dependancies = TRUE)
 
-    function module_enable($module_list, $enable_dependancies = TRUE) {
-    }
+  }
 
-}
