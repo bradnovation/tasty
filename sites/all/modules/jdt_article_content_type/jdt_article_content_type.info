@@ -31,6 +31,7 @@ features[field_instance][] = node-jdt_article-field_date
 features[field_instance][] = node-jdt_article-field_image
 features[field_instance][] = node-jdt_article-field_related_articles
 features[field_instance][] = node-jdt_article-field_slug
+features[image][] = jdt_article_display
 features[node][] = jdt_article
 features[variable][] = comment_anonymous_jdt_article
 features[variable][] = comment_default_mode_jdt_article
