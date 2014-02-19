@@ -28,7 +28,6 @@ function central_update_7000() {
 function central_update_7001() {
 
   $module_list = array(
-    'date',
     'jdt_article_content_type'
   );
 
