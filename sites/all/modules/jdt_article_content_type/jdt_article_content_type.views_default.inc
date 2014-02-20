@@ -135,7 +135,13 @@ function jdt_article_content_type_views_default_views() {
   $handler->display->display_options['fields']['field_related_articles']['table'] = 'field_data_field_related_articles';
   $handler->display->display_options['fields']['field_related_articles']['field'] = 'field_related_articles';
   $handler->display->display_options['fields']['field_related_articles']['delta_offset'] = '0';
-  $handler->display->display_options['path'] = 'jdt';
+  $handler->display->display_options['path'] = 'article';
+  $handler->display->display_options['menu']['type'] = 'normal';
+  $handler->display->display_options['menu']['title'] = 'JDT Articles';
+  $handler->display->display_options['menu']['weight'] = '0';
+  $handler->display->display_options['menu']['name'] = 'main-menu';
+  $handler->display->display_options['menu']['context'] = 0;
+  $handler->display->display_options['menu']['context_only_inline'] = 0;
   $export['jdt_articles'] = $view;
 
   return $export;
