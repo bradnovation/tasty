@@ -40,6 +40,7 @@ features[variable][] = comment_form_location_jdt_article
 features[variable][] = comment_jdt_article
 features[variable][] = comment_preview_jdt_article
 features[variable][] = comment_subject_field_jdt_article
+features[variable][] = date_format_long
 features[variable][] = field_bundle_settings_node__jdt_article
 features[variable][] = menu_options_jdt_article
 features[variable][] = menu_parent_jdt_article
