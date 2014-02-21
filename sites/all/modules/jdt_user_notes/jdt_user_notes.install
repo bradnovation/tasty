@@ -1,0 +1,9 @@
+<?php
+  $schema['jdt_user_notes'] = array(
+    'description' => 'The base table for JDT user notes.',
+    'fields' => array(
+      'note_id' => array(
+        'description' => 'The primary identifier for a note.',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE),
