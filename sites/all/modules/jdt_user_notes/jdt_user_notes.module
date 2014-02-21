@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ * Module to allow users the ablity to add notes to articles
+ */
+
+/**
+ * Implement hook_help()
+ */
+
+function jdt_user_notes($path, $arg) {
+  if ($path == 'admin/help#jdt_user_notes') {
+    return t('This module will enable users to add notes to artiles');
+  }
+}
