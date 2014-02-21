@@ -1,0 +1,4 @@
+name = JDT User Notes
+description = Allow users to add notes to an article.
+package = Bradnovation
+core = 7.x
