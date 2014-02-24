@@ -20,9 +20,25 @@ function jdt_user_notes($path, $arg) {
 
 function jdt_user_notes_permission() {
     return array(
-        'administer my module' => array(
-            'title' => t('Administer my module'),
-            'description' => t('Perform administration tasks for my module.'),
+        'add notes' => array(
+            'title' => t('allow user to add notes'),
+            'description' => t('Allow users to add notes'),
+        ),
+        'modify own notes' => array(
+            'title' => t('allow user to modify their own notes'),
+            'description' => t('Allow users to modify their own notes'),
+        ),
+        'modify any notes' => array(
+            'title' => t('allow user to modify any notes'),
+            'description' => t('Allow users to modify any notes'),
+        ),
+        'delete own notes' => array(
+            'title' => t('Allow users to delete own notes'),
+            'description' => t('Allow users to delete their own notes'),
+        ),
+        'delete any notes' => array(
+            'title' => t('Allow users to delete any notes'),
+            'description' => t('Allow users to delete any notes'),
         ),
     );
 }
