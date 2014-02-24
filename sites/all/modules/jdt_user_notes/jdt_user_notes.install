@@ -1,9 +1,49 @@
 <?php
-  $schema['jdt_user_notes'] = array(
-    'description' => 'The base table for JDT user notes.',
-    'fields' => array(
-      'note_id' => array(
-        'description' => 'The primary identifier for a note.',
-        'type' => 'serial',
-        'unsigned' => TRUE,
-        'not null' => TRUE),
+
+/**
+  * Implements hook_schema()
+  */
+
+
+function jdt_user_notes_schema() {
+
+$schema['jdt_user_notes'] = array(
+  'description' => 'Table for jdt user notes',
+  'fields' => array(
+    'note_id' => array(
+      'description' => 'ID of the note',
+      'type' => 'int',
+      'unsigned' => TRUE,
+      'not null' => TRUE,
+    ),
+    'article_nid' => array(
+      'description' => 'ID of the jdt article to have note attached to',
+      'type' => 'int',
+      'unsigned' => TRUE,
+      'not null' => TRUE,
+    ),
+    'author_uid' => array(
+      'description' => 'User ID of the author of the note',
+      'type' => 'int',
+      'unsigned' => TRUE,
+      'not null' => TRUE,
+    ),
+    'note_text' => array(
+      'description' => 'Contents of the note',
+      'type' => 'varchar',
+      'length' => '255',
+      'not null' => TRUE,
+    ),
+  ),
+  'indexes' => array(
+    'note_id' => array('note_id'),
+  ),
+);
+
+
+  return $schema;
+}
+
+
+
+
