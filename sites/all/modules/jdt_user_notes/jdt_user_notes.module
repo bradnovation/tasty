@@ -13,3 +13,16 @@ function jdt_user_notes($path, $arg) {
     return t('This module will enable users to add notes to artiles');
   }
 }
+
+/**
+ * Implement hook_permission()
+ */
+
+function jdt_user_notes_permission() {
+    return array(
+        'administer my module' => array(
+            'title' => t('Administer my module'),
+            'description' => t('Perform administration tasks for my module.'),
+        ),
+    );
+}
