@@ -14,22 +14,19 @@ function jdt_user_notes($path, $arg) {
   }
 }
 
-/**
- * Implement hook_permission()
- */
 
 function jdt_user_notes_permission() {
-  return array(
-    'add notes' => array(
-      'title' => t('allow user to add notes'),
-      'description' => t('Allow users to add notes'),
-    ),
-    'modify own notes' => array(
-      'title' => t('allow user to modify their own notes'),
-      'description' => t('Allow users to modify their own notes'),
-    ),
-        'modify any notes' => array(
-            'title' => t('allow user to modify any notes'),
+    return array(
+        'add notes' => array(
+            'title' => t('allow user to add notes'),
+            'description' => t('Allow users to add notes'),
+        ),
+        'modify own notes' => array(
+            'title' => t('allow user to modify their own notes'),
+            'description' => t('Allow users to modify their own notes'),
+        ),
+        'access note form' => array(
+            'title' => t('allow user to access form submission page for notes'),
             'description' => t('Allow users to modify any notes'),
         ),
         'delete own notes' => array(
@@ -43,15 +40,64 @@ function jdt_user_notes_permission() {
     );
 }
 
+
+/**
+ * Implements hook_menu().
+ */
+function jdt_user_notes_menu() {
+    $items['admin/content/notes'] = array(
+        'title' => 'JDT User Notes',
+        'description' => 'Find and manage user notes.',
+        'type' => MENU_NORMAL_ITEM,
+        'page callback' => 'drupal_get_form',
+        'page arguments' => array('jdt_user_notes_new_form'),
+        'access arguments' => array('access note form'),
+        'weight' => -10,
+        'file' => 'jdt_user_notes.admin.inc',
+    );
+    return $items;
+}
+
+/**
+ * Implement hook_permission()
+ */
+
+
+
 /**
  * API Stuff
- * Get notes attached to article if any
+ * Create, Read, Update/Modify & Delete
  */
-if (arg(0) == 'node' && is_numeric(arg(1))) $nid = arg(1);
 
-function jdt_user_notes_get_notes($nid) {
-  if
-  return array(
-    if ()
-  );
+function jdt_user_notes_create($nid, $uid, $note_text) {
+
+  $query = db_insert('jdt_user_notes')
+      ->fields(array(
+          'article_id' => $nid,
+          'author_id' => $uid,
+          'note_text' => $note_text
+      ))
+  ->execute();
+
 }
+
+function jdt_user_notes_get($nid) {
+  if ($node_type == "jdt_article"){
+    $query = db_select('jdt_user_notes', 'n');
+    $query->join('field_data_body', 'b', 'b.entity_id = b.entity_id');
+    $query
+        ->fields('n', array('nid', 'title'))
+        ->condition('n.type', 'node')
+        ->orderBy('n.created', 'DESC')
+        ->addTag('node_access');
+  }
+}
+
+function jdt_user_notes_modify() {
+
+}
+
+function jdt_user_notes_delete(){
+
+}
+

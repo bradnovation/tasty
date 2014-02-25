@@ -30,13 +30,13 @@ $schema['jdt_user_notes'] = array(
     ),
     'note_text' => array(
       'description' => 'Contents of the note',
-      'type' => 'varchar',
-      'length' => '255',
+      'type' => 'text',
       'not null' => TRUE,
     ),
   ),
   'indexes' => array(
     'note_id' => array('note_id'),
+    'article_nid' => array('article_nid'),
   ),
 );
 
