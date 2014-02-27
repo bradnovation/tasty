@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee7c7ae4-28ab-4b04-99a6-14e268475e83" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.admin.inc" afterPath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.admin.inc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.info" afterPath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.forms.inc" afterPath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.forms.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.helpers.inc" afterPath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.helpers.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.install" afterPath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.install" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.module" afterPath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.module" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tasty.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +35,7 @@
       <file leaf-file-name="jdt_user_notes.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="2013" selection-end="2013" vertical-scroll-proportion="-18.791666" vertical-offset="644" max-vertical-offset="1260">
+            <state line="48" column="22" selection-start="1141" selection-end="1146" vertical-scroll-proportion="-5.0416665" vertical-offset="599" max-vertical-offset="1230">
               <folding>
                 <element signature="e#6#83#0" expanded="true" />
               </folding>
@@ -48,7 +49,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="877" selection-end="877" vertical-scroll-proportion="-21.11111" vertical-offset="0" max-vertical-offset="825">
+            <state line="38" column="25" selection-start="942" selection-end="942" vertical-scroll-proportion="-21.11111" vertical-offset="0" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
@@ -57,19 +58,8 @@
       <file leaf-file-name="jdt_user_notes.info" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="30" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+            <state line="6" column="10" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdt_user_notes.forms.inc" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.forms.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.17207792" vertical-offset="569" max-vertical-offset="1545">
-              <folding>
-                <element signature="e#7#36#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -77,7 +67,7 @@
       <file leaf-file-name="jdt_user_notes.helpers.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.helpers.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="1" selection-start="924" selection-end="924" vertical-scroll-proportion="-25.375" vertical-offset="66" max-vertical-offset="765">
+            <state line="19" column="31" selection-start="375" selection-end="375" vertical-scroll-proportion="-11.25" vertical-offset="15" max-vertical-offset="780">
               <folding>
                 <element signature="e#6#102#0" expanded="true" />
               </folding>
@@ -97,7 +87,7 @@
       <file leaf-file-name="comment.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/comment/comment.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="286" column="12" selection-start="9459" selection-end="9459" vertical-scroll-proportion="-43.75" vertical-offset="3240" max-vertical-offset="41175">
+            <state line="1441" column="22" selection-start="48926" selection-end="48926" vertical-scroll-proportion="-2.04" vertical-offset="21513" max-vertical-offset="41175">
               <folding>
                 <element signature="e#7#274#0" expanded="true" />
                 <marker date="1389814996000" expanded="true" signature="10367:10422" placeholder="SELECT COUNT..." />
@@ -123,6 +113,17 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="jdt_user_notes.forms.inc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.forms.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="0" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.43993506" vertical-offset="554" max-vertical-offset="1725">
+              <folding>
+                <element signature="e#7#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="comment.admin.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/comment/comment.admin.inc">
           <provider selected="true" editor-type-id="text-editor">
@@ -137,7 +138,7 @@
       <file leaf-file-name="comment.pages.inc" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/comment/comment.pages.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="56" selection-start="1782" selection-end="1782" vertical-scroll-proportion="6.25" vertical-offset="840" max-vertical-offset="1890">
+            <state line="54" column="25" selection-start="2145" selection-end="2145" vertical-scroll-proportion="-11.875" vertical-offset="480" max-vertical-offset="1890">
               <folding>
                 <marker date="1389814996000" expanded="true" signature="1917:2110" placeholder="SELECT c.*, ..." />
               </folding>
@@ -159,12 +160,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/sites/all/modules/libraries/libraries.module" />
-        <option value="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.install" />
-        <option value="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.helpers.inc" />
         <option value="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.admin.inc" />
         <option value="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.form.inc" />
+        <option value="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.install" />
+        <option value="$PROJECT_DIR$/modules/comment/comment.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.module" />
         <option value="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.info" />
+        <option value="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.helpers.inc" />
         <option value="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.forms.inc" />
       </list>
     </option>
@@ -174,8 +176,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="113" />
-    <option name="y" value="22" />
+    <option name="x" value="24" />
+    <option name="y" value="24" />
     <option name="width" value="1253" />
     <option name="height" value="783" />
   </component>
@@ -300,6 +302,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="module_filter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasty" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="jdt_user_notes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -373,7 +401,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistory" value="&#10;db_q&#10;hook_sch" />
+    <property name="SearchEverywhereHistory" value="global&#10;db_q&#10;hook_sch" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -418,7 +446,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="113" y="22" width="1253" height="783" extended-state="0" />
+    <frame x="24" y="24" width="1253" height="783" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -696,7 +724,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/comment/comment.pages.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="56" selection-start="1782" selection-end="1782" vertical-scroll-proportion="6.25" vertical-offset="840" max-vertical-offset="1890">
+        <state line="54" column="25" selection-start="2145" selection-end="2145" vertical-scroll-proportion="-11.875" vertical-offset="480" max-vertical-offset="1890">
           <folding>
             <marker date="1389814996000" expanded="true" signature="1917:2110" placeholder="SELECT c.*, ..." />
           </folding>
@@ -714,7 +742,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/comment/comment.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="286" column="12" selection-start="9459" selection-end="9459" vertical-scroll-proportion="-43.75" vertical-offset="3240" max-vertical-offset="41175">
+        <state line="1441" column="22" selection-start="48926" selection-end="48926" vertical-scroll-proportion="-2.04" vertical-offset="21513" max-vertical-offset="41175">
           <folding>
             <element signature="e#7#274#0" expanded="true" />
             <marker date="1389814996000" expanded="true" signature="10367:10422" placeholder="SELECT COUNT..." />
@@ -739,9 +767,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.info">
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.admin.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
           <folding />
         </state>
       </provider>
@@ -751,14 +779,21 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="877" selection-end="877" vertical-scroll-proportion="-21.11111" vertical-offset="0" max-vertical-offset="825">
+        <state line="38" column="25" selection-start="942" selection-end="942" vertical-scroll-proportion="-21.11111" vertical-offset="0" max-vertical-offset="915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="10" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="2013" selection-end="2013" vertical-scroll-proportion="-18.791666" vertical-offset="644" max-vertical-offset="1260">
+        <state line="48" column="22" selection-start="1141" selection-end="1146" vertical-scroll-proportion="-5.0416665" vertical-offset="599" max-vertical-offset="1230">
           <folding>
             <element signature="e#6#83#0" expanded="true" />
           </folding>
@@ -767,23 +802,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.helpers.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="1" selection-start="924" selection-end="924" vertical-scroll-proportion="-25.375" vertical-offset="66" max-vertical-offset="765">
+        <state line="19" column="31" selection-start="375" selection-end="375" vertical-scroll-proportion="-11.25" vertical-offset="15" max-vertical-offset="780">
           <folding>
             <element signature="e#6#102#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.admin.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.forms.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.17207792" vertical-offset="569" max-vertical-offset="1545">
+        <state line="55" column="0" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.43993506" vertical-offset="554" max-vertical-offset="1725">
           <folding>
             <element signature="e#7#36#0" expanded="true" />
           </folding>

@@ -46,26 +46,24 @@ function jdt_user_notes_permission() {
  */
 
 function jdt_user_notes_menu() {
-    $items['notes/%/add'] = array(
-        'title' => 'JDT User Notes',
+    $items['node/%node/note/add'] = array(
+        'title' => 'Annotate',
         'description' => 'Add a user note.',
         'page callback' => 'drupal_get_form',
-        'page arguments' => array('jdt_user_notes_new_form'),
-        //'access arguments' => array('access note form'),
-        'access callback' => array('add notes'),
+        'page arguments' => array('jdt_user_notes_new_form', 1),
+        'access arguments' => array('add notes'),
         'weight' => 50,
-        'type' => MENU_CALLBACK,
-        'file' => 'jdt_user_notes.admin.inc',
+        'type' => MENU_LOCAL_TASK,
+        'file' => 'jdt_user_notes.forms.inc',
     );
-    $items['notes/%/edit'] = array(
+    $items['node/%/note/edit'] = array(
         'title' => 'Edit JDT User Notes',
         'description' => 'Edit existing user notes.',
         'page callback' => 'drupal_get_form',
-        'page arguments' => array('jdt_user_notes_new_form'),
-        'access arguments' => array('access note form'),
-        'access callback' => array('add notes'),
+        'page arguments' => array('jdt_user_notes_edit_form'),
+        'access arguments' => array('modify notes'),
         'weight' => 50,
-        'file' => 'jdt_user_notes.admin.inc',
+        'file' => 'jdt_user_notes.forms.inc',
     );
 
     return $items;
