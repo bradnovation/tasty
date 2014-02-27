@@ -4,3 +4,5 @@ package = Bradnovation
 core = 7.x
 
 files[] = jdt_user_notes.admin.inc
+files[] = jdt_user_notes.helpers.inc
+files[] = jdt_user_notes.forms.inc

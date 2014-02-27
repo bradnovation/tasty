@@ -36,7 +36,7 @@ $schema['jdt_user_notes'] = array(
   ),
   'indexes' => array(
     'note_id' => array('note_id'),
-    'article_nid' => array('article_nid'),
+
   ),
 );
 

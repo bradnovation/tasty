@@ -24,79 +24,55 @@ function jdt_user_notes_permission() {
             'title' => t('allow user to add notes'),
             'description' => t('Allow users to add notes'),
         ),
-        'modify own notes' => array(
+        'access notes' => array(
+            'title' => t('allow user to access notes'),
+            'description' => t('Allow users to access notes'),
+        ),
+        'modify notes' => array(
             'title' => t('allow user to modify their own notes'),
             'description' => t('Allow users to modify their own notes'),
         ),
-        'access note form' => array(
-            'title' => t('allow user to access form submission page for notes'),
-            'description' => t('Allow users to modify any notes'),
-        ),
-        'delete own notes' => array(
-            'title' => t('Allow users to delete own notes'),
-            'description' => t('Allow users to delete their own notes'),
-        ),
-        'delete any notes' => array(
-            'title' => t('Allow users to delete any notes'),
-            'description' => t('Allow users to delete any notes'),
+        'delete notes' => array(
+            'title' => t('Allow user to delete notes'),
+            'description' => t('Allow users to delete notes'),
         ),
     );
 }
 
 
+
 /**
  * Implements hook_menu().
  */
+
 function jdt_user_notes_menu() {
-    $items['jdt-notes'] = array(
+    $items['notes/%/add'] = array(
         'title' => 'JDT User Notes',
-        'description' => 'Find and manage user notes.',
+        'description' => 'Add a user note.',
+        'page callback' => 'drupal_get_form',
+        'page arguments' => array('jdt_user_notes_new_form'),
+        //'access arguments' => array('access note form'),
+        'access callback' => array('add notes'),
+        'weight' => 50,
+        'type' => MENU_CALLBACK,
+        'file' => 'jdt_user_notes.admin.inc',
+    );
+    $items['notes/%/edit'] = array(
+        'title' => 'Edit JDT User Notes',
+        'description' => 'Edit existing user notes.',
         'page callback' => 'drupal_get_form',
         'page arguments' => array('jdt_user_notes_new_form'),
         'access arguments' => array('access note form'),
+        'access callback' => array('add notes'),
         'weight' => 50,
         'file' => 'jdt_user_notes.admin.inc',
     );
+
     return $items;
 }
 
 
 
 
-/**
- * API Stuff
- * Create, Read, Update/Modify & Delete
- */
 
-function jdt_user_notes_create($nid, $uid, $note_text) {
-
-  $query = db_insert('jdt_user_notes')
-      ->fields(array(
-          'article_id' => $nid,
-          'author_id' => $uid,
-          'note_text' => $note_text
-      ))
-  ->execute();
-
-}
-
-function jdt_user_notes_get($nid) {
-  if ($node_type == "jdt_article"){
-    $query = db_select('jdt_user_notes', 'n');
-    $query->join('field_data_body', 'b', 'b.entity_id = b.entity_id');
-    $query
-        ->fields('n', array('nid', 'title'))
-        ->condition('n.type', 'node')
-        ->orderBy('n.created', 'DESC')
-        ->addTag('node_access');
-  }
-}
-
-function jdt_user_notes_modify() {
-
-}
-
-function jdt_user_notes_delete(){
-
-}
 
