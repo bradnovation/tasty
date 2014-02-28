@@ -22,7 +22,7 @@ $schema['jdt_user_notes'] = array(
       'unsigned' => TRUE,
       'not null' => TRUE,
     ),
-    'author_uid' => array(
+    'author_id' => array(
       'description' => 'User ID of the author of the note',
       'type' => 'int',
       'unsigned' => TRUE,
