@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * Module to allow users the ablity to add notes to articles
+ * Module to allow users the ability to add notes to articles
+ * The getters and setters.
  */
 
 /**
- * Implement hook_help()
+ * Implements hook_help().
  */
-
 function jdt_user_notes($path, $arg) {
   if ($path == 'admin/help#jdt_user_notes') {
     return t('This module will enable users to add notes to articles');
@@ -15,58 +15,55 @@ function jdt_user_notes($path, $arg) {
 }
 
 /**
- * Implement hook_permission()
+ * Implements hook_permission().
  */
-
 function jdt_user_notes_permission() {
-    return array(
-        'add notes' => array(
-            'title' => t('allow user to add notes'),
-            'description' => t('Allow users to add notes'),
-        ),
-        'access notes' => array(
-            'title' => t('allow user to access notes'),
-            'description' => t('Allow users to access notes'),
-        ),
-        'modify notes' => array(
-            'title' => t('allow user to modify their own notes'),
-            'description' => t('Allow users to modify their own notes'),
-        ),
-        'delete notes' => array(
-            'title' => t('Allow user to delete notes'),
-            'description' => t('Allow users to delete notes'),
-        ),
-    );
+  return array(
+    'add notes' => array(
+      'title' => t('allow user to add notes'),
+      'description' => t('Allow users to add notes'),
+    ),
+    'access notes' => array(
+      'title' => t('allow user to access notes'),
+      'description' => t('Allow users to access notes'),
+    ),
+    'modify notes' => array(
+      'title' => t('allow user to modify their own notes'),
+      'description' => t('Allow users to modify their own notes'),
+    ),
+    'delete notes' => array(
+      'title' => t('Allow user to delete notes'),
+      'description' => t('Allow users to delete notes'),
+    ),
+  );
 }
-
 
 
 /**
  * Implements hook_menu().
  */
-
 function jdt_user_notes_menu() {
-    $items['node/%node/note/add'] = array(
-        'title' => 'Annotate',
-        'description' => 'Add a user note.',
-        'page callback' => 'drupal_get_form',
-        'page arguments' => array('jdt_user_notes_new_form', 1),
-        'access arguments' => array('add notes'),
-        'weight' => 50,
-        'type' => MENU_LOCAL_TASK,
-        'file' => 'jdt_user_notes.forms.inc',
-    );
-    $items['node/%/note/edit'] = array(
-        'title' => 'Edit JDT User Notes',
-        'description' => 'Edit existing user notes.',
-        'page callback' => 'drupal_get_form',
-        'page arguments' => array('jdt_user_notes_edit_form'),
-        'access arguments' => array('modify notes'),
-        'weight' => 50,
-        'file' => 'jdt_user_notes.forms.inc',
-    );
+  $items['node/%node/note/add'] = array(
+    'title' => 'Annotate',
+    'description' => 'Add a user note.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('jdt_user_notes_new_form', 1),
+    'access arguments' => array('add notes'),
+    'weight' => 50,
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'jdt_user_notes.forms.inc',
+  );
+  $items['node/%/note/edit'] = array(
+    'title' => 'Edit JDT User Notes',
+    'description' => 'Edit existing user notes.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('jdt_user_notes_edit_form'),
+    'access arguments' => array('modify notes'),
+    'weight' => 50,
+    'file' => 'jdt_user_notes.forms.inc',
+  );
 
-    return $items;
+  return $items;
 }
 
 
