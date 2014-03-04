@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee7c7ae4-28ab-4b04-99a6-14e268475e83" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.forms.inc" afterPath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.forms.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.helpers.inc" afterPath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.helpers.inc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.module" afterPath="$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.module" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tasty.iws" />
@@ -33,10 +31,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="jdt_user_notes.forms.inc" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.forms.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="0" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.54545456" vertical-offset="645" max-vertical-offset="2145">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdt_user_notes.helpers.inc" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.helpers.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="26" selection-start="690" selection-end="690" vertical-scroll-proportion="-6.875" vertical-offset="285" max-vertical-offset="1290">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="jdt_user_notes.module" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.module">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="27" selection-start="108" selection-end="108" vertical-scroll-proportion="-1.25" vertical-offset="30" max-vertical-offset="1185">
+            <state line="27" column="56" selection-start="678" selection-end="678" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
@@ -45,34 +61,12 @@
       <file leaf-file-name="jdt_user_notes.install" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.install">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="21" selection-start="997" selection-end="997" vertical-scroll-proportion="-23.333334" vertical-offset="0" max-vertical-offset="915">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.8888888" vertical-offset="105" max-vertical-offset="915">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdt_user_notes.helpers.inc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.helpers.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="38" selection-start="975" selection-end="975" vertical-scroll-proportion="-16.875" vertical-offset="300" max-vertical-offset="960">
-              <folding>
-                <element signature="e#6#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jdt_user_notes.forms.inc" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.forms.inc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="4" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.47727272" vertical-offset="525" max-vertical-offset="1200">
-              <folding>
-                <element signature="e#7#65#0" expanded="true" />
-              </folding>
-            </state>
           </provider>
         </entry>
       </file>
@@ -106,7 +100,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="84" />
+    <option name="x" value="104" />
     <option name="y" value="22" />
     <option name="width" value="1271" />
     <option name="height" value="781" />
@@ -251,91 +245,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="module_filter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="jdt_user_notes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="central" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tasty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="comment" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,10 +262,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistory" value="sniff&#10;global&#10;db_q&#10;hook_sch" />
     <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -396,7 +310,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="22" width="1271" height="781" extended-state="0" />
+    <frame x="104" y="22" width="1271" height="781" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -412,11 +326,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -436,231 +350,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.install">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="21" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.helpers.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="960">
-          <folding>
-            <element signature="e#6#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.forms.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="915">
-          <folding>
-            <element signature="e#7#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/system/system.api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3156" column="8" selection-start="129653" selection-end="129653" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="73575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="12" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/database/database.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2341" column="9" selection-start="75695" selection-end="75695" vertical-scroll-proportion="0.0" vertical-offset="35115" max-vertical-offset="45675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_article_content_type/jdt_article_content_type.features.field_base.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3195" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_article_content_type/jdt_article_content_type.features.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="294" selection-end="294" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1185" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jquery_update/jquery_update.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7398119" vertical-offset="1110" max-vertical-offset="5430" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jquery_update/jquery_update.install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="605" selection-end="605" vertical-scroll-proportion="0.56692916" vertical-offset="0" max-vertical-offset="795" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/module_filter/module_filter.install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/libraries/libraries.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="13080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/token/token.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="19290" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pathauto/pathauto.admin.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6570" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/pathauto/pathauto.api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_article_content_type/jdt_article_content_type.features.field_instance.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.7557604" vertical-offset="1794" max-vertical-offset="4605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/context/context.install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1770" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_article_content_type/jdt_article_content_type.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.31111112" vertical-offset="210" max-vertical-offset="885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/system/system.api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3156" column="8" selection-start="129653" selection-end="129653" vertical-scroll-proportion="-0.07053292" vertical-offset="47340" max-vertical-offset="73530" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/context/context.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="229" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_article_content_type/jdt_article_content_type.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_article_content_type/jdt_article_content_type.features.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="294" selection-end="294" vertical-scroll-proportion="-0.5204236" vertical-offset="479" max-vertical-offset="1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/database/database.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2341" column="9" selection-start="75695" selection-end="75695" vertical-scroll-proportion="-0.15885022" vertical-offset="35115" max-vertical-offset="45570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_article_content_type/jdt_article_content_type.features.field_base.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/node/node.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="26" selection-start="8156" selection-end="8156" vertical-scroll-proportion="0.0" vertical-offset="2805" max-vertical-offset="62640">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/form.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="198.125" vertical-offset="4755" max-vertical-offset="69300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/central/central.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="267" selection-end="267" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="330" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/central/central.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="698" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/comment/comment.pages.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="25" selection-start="2145" selection-end="2145" vertical-scroll-proportion="0.33333334" vertical-offset="773" max-vertical-offset="1890" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/comment/comment.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1441" column="22" selection-start="48926" selection-end="48926" vertical-scroll-proportion="0.17677642" vertical-offset="21513" max-vertical-offset="41175" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/comment/comment.admin.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="0" selection-start="8066" selection-end="8066" vertical-scroll-proportion="-0.45833334" vertical-offset="3679" max-vertical-offset="4305" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/central/central.install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="117" selection-end="117" vertical-scroll-proportion="0.21226415" vertical-offset="0" max-vertical-offset="645" />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="10" selection-start="156" selection-end="156" vertical-scroll-proportion="0.13615733" vertical-offset="0" max-vertical-offset="661" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.admin.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.02354788" vertical-offset="0" max-vertical-offset="637" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="21" selection-start="997" selection-end="997" vertical-scroll-proportion="-23.333334" vertical-offset="0" max-vertical-offset="915">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.8888888" vertical-offset="105" max-vertical-offset="915">
           <folding />
         </state>
       </provider>
@@ -670,26 +362,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="27" selection-start="108" selection-end="108" vertical-scroll-proportion="-1.25" vertical-offset="30" max-vertical-offset="1185">
+        <state line="27" column="56" selection-start="678" selection-end="678" vertical-scroll-proportion="-14.375" vertical-offset="0" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.helpers.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="38" selection-start="975" selection-end="975" vertical-scroll-proportion="-16.875" vertical-offset="300" max-vertical-offset="960">
-          <folding>
-            <element signature="e#6#44#0" expanded="true" />
-          </folding>
+        <state line="33" column="26" selection-start="690" selection-end="690" vertical-scroll-proportion="-6.875" vertical-offset="285" max-vertical-offset="1290">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/jdt_user_notes/jdt_user_notes.forms.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="4" selection-start="1217" selection-end="1217" vertical-scroll-proportion="0.47727272" vertical-offset="525" max-vertical-offset="1200">
-          <folding>
-            <element signature="e#7#65#0" expanded="true" />
-          </folding>
+        <state line="71" column="0" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.54545456" vertical-offset="645" max-vertical-offset="2145">
+          <folding />
         </state>
       </provider>
     </entry>
