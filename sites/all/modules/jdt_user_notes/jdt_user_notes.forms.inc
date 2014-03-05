@@ -79,6 +79,16 @@ function jdt_user_notes_gen_edit_form ($form, &$form_state, $nid) {
     '#required' => TRUE,
   );
 
+  $form['note_id'] = array(
+    '#title' => t('Note ID'),
+    '#description' => 'ID of the note',
+    '#type' => 'value',
+    '#size' => 10,
+    '#value' => $result->note_id,
+    '#required' => TRUE,
+  );
+
+
   $form['submit'] = array(
     '#type' => 'submit',
     '#value' => t('Submit Edit'),
@@ -125,17 +135,15 @@ function jdt_user_notes_gen_form_submit($form, &$form_state) {
 /**
  * Edit the note from the form.
  */
-function jdt_user_notes_gen_edit_form_submit(&$form, $form_state, $nid) {
+function jdt_user_notes_gen_edit_form_submit(&$form, $form_state) {
 
   module_load_include('inc', 'jdt_user_notes', 'jdt_user_notes.helpers');
 
   $note_text = $form_state['values']['note_text'];
-  $nid = $form_state['values']['article_nid'];
   $author_id = $form_state['values']['author_id'];
+  $nid = $form_state['values']['note_id'];
 
   jdt_user_notes_modify($nid, $note_text, $author_id);
 
 }
-
-
 

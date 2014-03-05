@@ -32,7 +32,8 @@ function jdt_user_notes_get($nid) {
   $query = db_select('jdt_user_notes', 'n');
   $query
     ->condition('n.note_id', $nid, '=')
-    ->fields('n', array('note_id',
+    ->fields('n', array(
+        'note_id',
         'article_nid',
         'author_id',
         'note_text',
@@ -40,7 +41,6 @@ function jdt_user_notes_get($nid) {
     );
   $result = $query->execute();
   $record = $result->fetchObject();
-  dpm($record);
   return $record;
 
 }
@@ -52,7 +52,6 @@ function jdt_user_notes_modify($nid, $text, $author){
   $query = db_update('jdt_user_notes')
     ->condition('$note_id', $nid, '=')
     ->fields(array(
-      'article_nid' => $nid,
       'author_id' => $author,
       'note_text' => $text,
       'created' => REQUEST_TIME,
@@ -61,20 +60,6 @@ function jdt_user_notes_modify($nid, $text, $author){
 
 }
 
-
-function jdt_user_notes_modify_legacy($note_id) {
-  $query = db_select('jdt_user_notes', 'n');
-  $query
-    ->condition('n.note_id', $note_id, '=')
-    ->fields('n', array('note_id',
-        'article_nid',
-        'author_id',
-        'note_text',
-        'created')
-    );
-  $result = $query->execute();
-  return $result;
-}
 
 /**
  * Delete selected note.
