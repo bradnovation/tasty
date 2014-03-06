@@ -53,6 +53,7 @@ function jdt_user_notes_gen_edit_form($form, &$form_state, $nid) {
 
   $result = jdt_user_notes_get($nid);
 
+
   $form['note_text'] = array(
     '#title' => t('User note'),
     '#description' => 'Please enter some text',
@@ -104,18 +105,22 @@ function jdt_user_notes_gen_edit_form($form, &$form_state, $nid) {
 /**
  * Form to display all notes associated with article
  */
-function jdt_user_notes_gimme_form($form, &$form_state, $aid) {
+function jdt_user_notes_gimme_form($form, &$form_state, $article_nid) {
   global $user;
 
   module_load_include('inc', 'jdt_user_notes', 'jdt_user_notes.helpers');
 
-  $result = jdt_user_notes_gimme($aid);
+  $result = jdt_user_notes_gimme($article_nid->nid);
+
+  dpm($result);
+
+  drupal_set_message('<pre>'. print_r($result, TRUE) .'</pre>');
 
   $form['note_text'] = array(
     '#title' => t('User note'),
     '#description' => 'Please enter some text',
     '#type' => 'textarea',
-    '#default_value' => $result->note_text,
+    '#default_value' => $article_nid->note_text,
     '#required' => TRUE,
   );
 

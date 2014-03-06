@@ -50,10 +50,10 @@ function jdt_user_notes_get($nid) {
  *
  * Get notes associated with node.
  */
-function jdt_user_notes_gimme($aid) {
+function jdt_user_notes_gimme($article_nid) {
   $query = db_select('jdt_user_notes', 'n');
   $query
-    ->condition('n.article_nid', $aid, '=')
+    ->condition('n.article_nid', $article_nid, '=')
     ->fields('n', array(
       'note_id',
       'article_nid',
@@ -62,8 +62,16 @@ function jdt_user_notes_gimme($aid) {
       'created')
     );
   $result = $query->execute();
-  $record = $result->fetchObject();
+
+  $num_of_results = $result->rowCount();
+  dpm($num_of_results);
+
+  while ($res = $result->fetchObject()) {
+    $record[] = $result->fetchObject();
+  }
+  dpm($record);
   return $record;
+
 }
 
 /**
