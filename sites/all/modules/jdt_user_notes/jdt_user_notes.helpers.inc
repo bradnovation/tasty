@@ -26,7 +26,7 @@ function jdt_user_notes_create($nid, $note_text, $author_id) {
 /**
  * Function to retrieve notes.
  *
- * Get notes associated with node.
+ * Get specific note.
  */
 function jdt_user_notes_get($nid) {
   $query = db_select('jdt_user_notes', 'n');
@@ -43,6 +43,27 @@ function jdt_user_notes_get($nid) {
   $record = $result->fetchObject();
   return $record;
 
+}
+
+/**
+ * Function to retrieve notes.
+ *
+ * Get notes associated with node.
+ */
+function jdt_user_notes_gimme($aid) {
+  $query = db_select('jdt_user_notes', 'n');
+  $query
+    ->condition('n.article_nid', $aid, '=')
+    ->fields('n', array(
+      'note_id',
+      'article_nid',
+      'author_id',
+      'note_text',
+      'created')
+    );
+  $result = $query->execute();
+  $record = $result->fetchObject();
+  return $record;
 }
 
 /**

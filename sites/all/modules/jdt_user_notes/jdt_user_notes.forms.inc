@@ -9,7 +9,7 @@
 /**
  * Build the 'new note' form.
  */
-function jdt_user_notes_gen_form ($form, &$form_state, $node) {
+function jdt_user_notes_gen_form($form, &$form_state, $node) {
   global $user;
   $form['note_text'] = array(
     '#title' => t('User note'),
@@ -46,7 +46,7 @@ function jdt_user_notes_gen_form ($form, &$form_state, $node) {
   return $form;
 }
 
-function jdt_user_notes_gen_edit_form ($form, &$form_state, $nid) {
+function jdt_user_notes_gen_edit_form($form, &$form_state, $nid) {
   global $user;
 
   module_load_include('inc', 'jdt_user_notes', 'jdt_user_notes.helpers');
@@ -104,8 +104,49 @@ function jdt_user_notes_gen_edit_form ($form, &$form_state, $nid) {
 /**
  * Form to display all notes associated with article
  */
-function jdt_user_notes_article_notes_form ($form, &$form_state, $nid) {
+function jdt_user_notes_gimme_form($form, &$form_state, $aid) {
+  global $user;
 
+  module_load_include('inc', 'jdt_user_notes', 'jdt_user_notes.helpers');
+
+  $result = jdt_user_notes_gimme($aid);
+
+  $form['note_text'] = array(
+    '#title' => t('User note'),
+    '#description' => 'Please enter some text',
+    '#type' => 'textarea',
+    '#default_value' => $result->note_text,
+    '#required' => TRUE,
+  );
+
+  $form['article_nid'] = array(
+    '#title' => t('Article title'),
+    '#description' => 'Node ID of the article',
+    '#type' => 'value',
+    '#size' => 10,
+    '#value' => $result->article_nid,
+    '#required' => TRUE,
+  );
+
+  $form['author_id'] = array(
+    '#title' => t('Author ID'),
+    '#description' => 'UID of the author',
+    '#type' => 'value',
+    '#size' => 10,
+    '#value' => $user->uid,
+    '#required' => TRUE,
+  );
+
+  $form['note_id'] = array(
+    '#title' => t('Note ID'),
+    '#description' => 'ID of the note',
+    '#type' => 'value',
+    '#size' => 10,
+    '#value' => $result->note_id,
+    '#required' => TRUE,
+  );
+
+  return $form;
 }
 
 /**
@@ -144,6 +185,8 @@ function jdt_user_notes_gen_edit_form_submit(&$form, $form_state) {
   $nid = $form_state['values']['note_id'];
 
   jdt_user_notes_modify($nid, $note_text, $author_id);
+
+  drupal_set_message("Your note was edited successfully");
 
 }
 

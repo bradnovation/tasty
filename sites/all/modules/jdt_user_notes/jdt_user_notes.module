@@ -63,6 +63,15 @@ function jdt_user_notes_menu() {
     'type' => MENU_CALLBACK,
     'file' => 'jdt_user_notes.forms.inc',
   );
+  $items['node/%node/gimme'] = array(
+    'title' => 'All related annotations',
+    'description' => 'Shows all Annotations for node.',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('jdt_user_notes_gimme_form', 1),
+    'access arguments' => array('access notes'),
+    'type' => MENU_LOCAL_TASK,
+    'file' => 'jdt_user_notes.forms.inc',
+  );
 
   return $items;
 }
