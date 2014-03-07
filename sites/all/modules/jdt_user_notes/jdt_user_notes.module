@@ -38,6 +38,17 @@ function jdt_user_notes_permission() {
   );
 }
 
+/*
+ * Implement hook_theme().
+ */
+function jdt_user_notes_theme(){
+  return array(
+    'jdt_user_notes_template' => array(
+      'template' => 'annotation-page',
+    ),
+  );
+}
+
 
 /**
  * Implements hook_menu().
@@ -66,11 +77,11 @@ function jdt_user_notes_menu() {
   $items['node/%node/gimme'] = array(
     'title' => 'All related annotations',
     'description' => 'Shows all Annotations for node.',
-    'page callback' => 'drupal_get_form',
-    'page arguments' => array('jdt_user_notes_gimme_form', 1),
+    'page callback' => 'jdt_user_notes_gimme',
+    'page arguments' => array(1),
     'access arguments' => array('access notes'),
     'type' => MENU_LOCAL_TASK,
-    'file' => 'jdt_user_notes.forms.inc',
+    'file' => 'jdt_user_notes.helpers.inc',
   );
 
   return $items;
